@@ -26,8 +26,8 @@
 			</ul>
 		<li><a>Online Books</a>
 			<ul>
-				<li><a href="/bb">Modern Text – searchable</a>
-				<li><a href="/manu">Original Manuscript Text</a>
+				<li><a href="/bb/assent.htm">Modern Text – searchable</a>
+				<li><a href="/manu/assent.htm">Original Manuscript Text</a>
 				<li><a href="/bbindex">Index to Alcoholics Anonymous</a>
 			</ul>
 		<li><a>AA Info</a>

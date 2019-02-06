@@ -1,1 +1,3 @@
-lib/
+**/littlepoll/
+**/*-min.js
+**/assets/text/
