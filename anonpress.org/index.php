@@ -38,6 +38,7 @@ chdir('../..') ?>
 	}
 	body>section {
 		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 	#randquote {
@@ -78,7 +79,7 @@ chdir('../..') ?>
 		padding: 0.5em;
 		margin: 2px 5px 5px 2px;
 		position: relative;
-		background-color: #fff;
+		background-color: rgba(255,255,255,187);
 	}
 	div.flex>section {
 		min-width: 350px;

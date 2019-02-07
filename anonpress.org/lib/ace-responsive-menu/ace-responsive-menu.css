@@ -259,9 +259,6 @@ E-mail: samson3d@gmail.com
     .ace-responsive-menu li ul.sub-menu li ul.sub-menu li a {
         padding-left: 5em;
     }
-    h1 {
-        display: none;
-    }
 }
 
 .ace-responsive-menu>li>a:only-child {
