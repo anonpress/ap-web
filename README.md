@@ -13,6 +13,7 @@
 * [jQuery](http://jquery.com) - v3.3.1 loaded from [cdnjs](https://cdnjs.com/libraries/jquery/)
 * [Font Awesome](https://fontawesome.com/v4.7.0/) - v4.7.0 loaded from [cdnjs](https://cdnjs.com/libraries/font-awesome)
 * [Didact Gothic](https://github.com/ossobuffo/didact-gothic) - loaded from [Google Fonts](https://fonts.google.com/specimen/Didact+Gothic)
+* [Tooltipster](http://iamceege.github.io/tooltipster/) - loaded from [cdnjs](https://cdnjs.com/libraries/tooltipster)
 
 ### Assets not included
 * `assets/text/quotes.tsv` - first column is quote, second column is starting page number, optional third column is ending page number
