@@ -263,3 +263,7 @@ E-mail: samson3d@gmail.com
         display: none;
     }
 }
+
+.ace-responsive-menu>li>a:only-child {
+    margin-top: 1px; /* Fix for weird alignment issue */
+}

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="description" content="Alcoholics Anonymous Books, Software, Phone Numbers, FAQ & AA Big Book Indexes">
 <meta name="robots" content="index,follow">
-<meta name="viewport" content="width=368, initial-scale=1">
+<meta name="viewport" content="width=400, initial-scale=1">
 <?php require_once('includes/style.php'); ?>
 <style>
 	h1 {
@@ -48,7 +48,7 @@
 		border-radius: 0.5em;
 		box-shadow: 2px 2px 5px #333;
 		padding: 1em;
-		margin-top: 36pt;
+		margin: 36pt 5px 5px 2px;
 		position: relative;
 		min-width: 350px;
 	}
