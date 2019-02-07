@@ -7,7 +7,7 @@
 ?>
 <p><?=$quotes[$i][0]?>
 <?php if(isset($quotes[$i][2])): ?>
-	<cite>Pages <?=$quotes[$i][1]?>–<?=$quotes[$i][2]?>
+	<cite>Pages&nbsp;<?=$quotes[$i][1]?>–<?=$quotes[$i][2]?>
 <?php else: ?>
-	<cite>Page <?=$quotes[$i][1]?></cite>
+	<cite>Page&nbsp;<?=$quotes[$i][1]?></cite>
 <?php endif; ?>

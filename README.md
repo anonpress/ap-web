@@ -16,3 +16,5 @@
 
 ### Assets not included
 * `assets/text/quotes.tsv` - first column is quote, second column is starting page number, optional third column is ending page number
+* `assets/The-Anonymous-Press-green.gif`
+* `assets/FEpicture.png`

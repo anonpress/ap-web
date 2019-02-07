@@ -5,3 +5,84 @@ body {
 h1, h2, h3 {
 	font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'Didact Gothic', 'Segoe UI', 'Segoe', 'Trebuchet MS', sans-serif;
 }
+
+.halfline {
+	background: url(/assets/halfline.gif);
+	background-attachment: local;
+}
+
+html {
+	background-attachment: fixed;
+}
+
+.right {
+	display: block;
+	float: right;
+	padding: 0.5em;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+h4 {
+	margin: 1em 0 0 0;
+	font-weight: normal;
+}
+
+h4:not(.weak) {
+	font-size: large;
+	font-weight: bold;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.spacer {
+	color: #ccc;
+	margin: 0 0.4em;
+	font-weight: bold;
+}
+
+ul.links, ul.links ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 1em;
+	text-align: left;
+}
+ul.links ul {
+	padding-left: 1em;
+	margin: 0;
+}
+ul.links a.strong {
+	margin: 0.2em 0;
+}
+
+a {
+	text-decoration: none;
+	color: #003;
+}
+
+a:hover {
+	color: #00f;
+	background-color: whitesmoke;
+}
+
+a:visited {
+	color: #036;
+}
+
+.clear {
+	clear: both;
+}
+
+.small {
+	font-size: 10pt;
+}
+
+footer {
+	text-align: right;
+	font-size: small;
+	margin: 1em;
+}
