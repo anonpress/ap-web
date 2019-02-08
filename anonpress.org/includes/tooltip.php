@@ -6,8 +6,7 @@
 		$('[title]').tooltipster({
 			theme: 'tooltip',
 			delay: 50,
-			delayTouch: 50,
-			interactive: true
+			delayTouch: 50
 		});
 	});
 </script>

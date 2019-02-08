@@ -3,11 +3,11 @@
 ## Dependencies
 
 ### Included from `lib/`
-* [The Amazing Little Poll](http://www.mr-corner.com/LittlePoll/) - v1.4 included from `/lib/littlepoll/lp_source.php`
+* [The Amazing Little Poll](http://www.mr-corner.com/LittlePoll/) - v1.3 included from `/lib/littlepoll/lp_source.php`
 * [Ace Responsive Menu](https://github.com/samsono/Ace-Responsive-Menu) - included from `/lib/ace-responsive-menu/ace-responsive-menu-min.js`
 
 ### Server environment
-* [PHP](http://php.net/) v7.0+
+* [PHP](http://php.net/) v7.0+ on \*nix
 
 ### Loaded from CDNs
 * [jQuery](http://jquery.com) - v3.3.1 loaded from [cdnjs](https://cdnjs.com/libraries/jquery/)
