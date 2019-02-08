@@ -11,7 +11,7 @@ h1, h2, h3 {
 }
 
 html {
-	background-attachment: fixed;
+	background-attachment: fixed !important;
 }
 
 .right {
