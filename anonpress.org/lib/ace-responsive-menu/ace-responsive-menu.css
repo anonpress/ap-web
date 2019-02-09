@@ -215,12 +215,11 @@ E-mail: samson3d@gmail.com
     .ace-responsive-menu > li > a > .arrow:before {
         float: right;
         content: "\f105";
+        margin-top: -1pt;
     }
     li.menu-active > a > .arrow:before {
         content: "\f107" !important;
-    }
-    li:not(.menu-active) > a > .arrow:before {
-        margin-top: -1pt !important;
+        margin-top: -2pt !important;
     }
     .ace-responsive-menu li ul.sub-menu > li {
         width: 100%;
