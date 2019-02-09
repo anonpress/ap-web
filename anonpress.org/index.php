@@ -133,7 +133,7 @@ chdir('../..') ?>
 <header>
 	<div class="flex" style="justify-content: space-between; align-items: center;">
 		<h1><img src="/assets/The-Anonymous-Press-green.gif" alt="The Anonymous Press"></h1>
-		<form action="mailto:ap@anonpress.org"><button>Contact Us</button></form>
+		<form data-email><button>Contact Us</button></form>
 	</div>
 </header>
 <section id="randquote">
@@ -261,7 +261,7 @@ chdir('../..') ?>
 					1658 N Milwaukee Ave #100-2883<br>
 					Chicago IL 60647-6905<br>
 					<span class="small">fax (509)&nbsp;779-4339</span><br>
-					<a href="mailto:ap@anonpress.org">ap@anonpress.org</a>
+					<a data-email></a>
 				</address>
 				<p style="margin-bottom: 0;"><strong style="color: #900;">Please</strong><span class="small"> do <em style="color: red;">not</em> write with<br>questions about meetings</span><br>
 					<a class="strong" href="/info/local_meetings.htm">click here for meeting info</a>
