@@ -74,6 +74,7 @@ E-mail: samson3d@gmail.com
 }
 .ace-responsive-menu li ul.sub-menu li > a > .arrow:before {
     content: "\f105" !important;
+    margin-top: -2pt !important;
 }
 .ace-responsive-menu > li > ul.sub-menu {
     display: none;
@@ -218,6 +219,9 @@ E-mail: samson3d@gmail.com
     li.menu-active > a > .arrow:before {
         content: "\f107" !important;
     }
+    li:not(.menu-active) > a > .arrow:before {
+        margin-top: -2pt !important;
+    }
     .ace-responsive-menu li ul.sub-menu > li {
         width: 100%;
     }
@@ -263,8 +267,4 @@ E-mail: samson3d@gmail.com
 
 .ace-responsive-menu>li>a:only-child {
     margin-top: 2px; /* Fix for weird alignment issue */
-}
-
-.ace-responsive-menu .sub-menu .arrow::before {
-    margin-top: -2pt !important;
 }
