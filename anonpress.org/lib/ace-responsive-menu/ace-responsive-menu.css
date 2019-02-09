@@ -264,3 +264,7 @@ E-mail: samson3d@gmail.com
 .ace-responsive-menu>li>a:only-child {
     margin-top: 2px; /* Fix for weird alignment issue */
 }
+
+.ace-responsive-menu .sub-menu .arrow::before {
+    margin-top: -2pt !important;
+}
