@@ -1,1 +1,1 @@
-<script src="//anonpress.org/scripts/analytics.js"></script>
+<script src="/scripts/analytics.js"></script>
