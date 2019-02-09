@@ -1,0 +1,1 @@
+<script src="//anonpress.org/scripts/analytics.js"></script>
