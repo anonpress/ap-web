@@ -21,7 +21,6 @@
 				<li><a href="https://anonpress.net/in">AP Index</a>
 				<li><a href="https://anonpress.net/xl">Extra Large Print</a>
 				<li><a href="https://anonpress.net/conc">Concordance</a>
-				<li><a href="https://anonpress.net/product.asp?itemid=18">Bargain Bin – <span style="color: grey !important;">empty</span></a>
 				<li><a href="https://anonpress.org/brochure_request/">Brochure Request</a>
 			</ul>
 		<li><a>Online Books</a>

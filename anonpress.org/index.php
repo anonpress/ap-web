@@ -100,11 +100,6 @@ chdir('../..') ?>
 	div.flex>section>h2:after {
 		content: ':';
 	}
-	.bbempty {
-		font-size: small;
-		color: grey;
-		white-space: nowrap;
-	}
 	.colon:after {
 		content: ':';
 	}
@@ -151,7 +146,6 @@ chdir('../..') ?>
 			<li><h4><a href="https://anonpress.net">Book store</a></h4>
 				<ul>
 					<li><a class="strong" href="https://anonpress.net">Order books here&#8239;»</a>
-					<li><a href="https://anonpress.net/product.asp?itemid=18">Bargain bin</a><span class="bbempty"> – empty</span>
 					<li><a href="/brochure_request">Brochure request</a>
 				</ul>
 			<li><h4 class="weak inline"><a href="/choices">Software</a></h4>
