@@ -220,7 +220,7 @@ E-mail: samson3d@gmail.com
         content: "\f107" !important;
     }
     li:not(.menu-active) > a > .arrow:before {
-        margin-top: -2pt !important;
+        margin-top: -1pt !important;
     }
     .ace-responsive-menu li ul.sub-menu > li {
         width: 100%;
