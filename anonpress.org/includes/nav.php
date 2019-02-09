@@ -59,7 +59,7 @@
 				<li><a href="/mobile">for BlackBerry</a>
 				<li><a href="/choices">for everything else</a>
 			</ul>
-		<li class="mobileonly"><a href="mailto:ap@anonpress.org">Contact Us</a>
+		<li class="mobileonly"><a data-email>Contact Us</a>
 		<li><a href="https://anonpress.net/view_cart.asp">Check cart</a>
 	</ul>
 </nav>
