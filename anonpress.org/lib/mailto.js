@@ -1,6 +1,5 @@
 function mailto(mailtoSettings) {
-	document.styleSheets[0].addRule("[data-before]::before", "content: attr(data-user);");
-	document.styleSheets[0].addRule("[data-after]::after", "content: attr(data-domain);");
+	$("head").append("<style>[data-before]::before{content:attr(data-before)}[data-after]::after{content:attr(data-after)}</style>");
 	var domain = mailtoSettings.domain || location.hostname.replace(/^www\./,"");
 	$("[data-email]").each(function() {
 		var user = ($(this).prop("data-email") || mailtoSettings.user);
@@ -16,8 +15,8 @@ function mailto(mailtoSettings) {
 		}
 		if(!$.trim($(this).html())) {
 			if($(this).css('display') === "inline") {
-				$(this).prop("data-before", user);
-				$(this).prop("data-after", domain);
+				$(this).attr("data-before", user);
+				$(this).attr("data-after", domain);
 				$(this).text("@");
 			}
 			else {
