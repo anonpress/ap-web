@@ -9,7 +9,6 @@ chdir('../..') ?>
 <meta name="description" content="Alcoholics Anonymous Books, Software, Phone Numbers, FAQ & AA Big Book Indexes">
 <meta name="robots" content="index,follow">
 <meta name="viewport" content="width=400, initial-scale=1">
-<?php include_once('includes/tooltip.php'); require_once('includes/style.php'); require_once('includes/mailto.php'); include_once('includes/analytics.php'); ?>
 <style>
 	h1 {
 		margin-left: 5%;
@@ -284,3 +283,4 @@ chdir('../..') ?>
 <footer>
 	"Alcoholics Anonymous" and "Big Book" have been registered as trademarks by AAWS Inc. New York
 </footer>
+<?php include_once('includes/tooltip.php'); require_once('includes/style.php'); require_once('includes/mailto.php'); include_once('includes/analytics.php'); ?>
