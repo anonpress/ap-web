@@ -9,125 +9,11 @@ chdir('../..') ?>
 <meta name="description" content="Alcoholics Anonymous Books, Software, Phone Numbers, FAQ & AA Big Book Indexes">
 <meta name="robots" content="index,follow">
 <meta name="viewport" content="width=400, initial-scale=1">
-<?php require_once('includes/style.php'); ?>
-<style>
-	h1 {
-		margin-left: 5%;
-		max-width: 90%;
-	}
-	header form {
-		margin-right: 5%;
-	}
-	button {
-		padding: 0.5em 1em;
-		font: inherit;
-		border-radius: 9px;
-		border: 1px solid #ccc;
-		color: #333;
-		background: linear-gradient(to bottom, #fff 0%,#f2f2f2 50%);
-	}
-	header button {
-		font-size: 18pt;
-	}
-	button:hover {
-		cursor: pointer;
-		color: #33f;
-	}
-	button:active {
-		background: linear-gradient(to top, #fff 0%,#f2f2f2 50%);
-	}
-	body>section {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-	#randquote {
-		max-width: 615px;
-	}
-	#randquote>h2 {
-		font-size: large;
-		color: #808040;
-		margin: 0;
-		font-weight: inherit;
-	}
-	#randquote>h2:after {
-		content: ':';
-	}
-	#randquote blockquote {
-		margin: 0 1.5em;
-	}
-	#randquote p {
-		margin: 0;
-	}
-	#randquote cite {
-		font-size: small;
-		color: #666;
-		font-style: normal;
-		margin-left: 0.5em;
-	}
-
-	.flex {
-		display: flex;
-		justify-content: space-evenly;
-		flex-wrap: wrap;
-		align-items: flex-start;
-	}
-	div.flex>section, .shadowbox {
-		border: thin outset #ccc;
-		border-radius: 0.5em;
-		box-shadow: 2px 2px 5px #333;
-		padding: 0.5em;
-		margin: 2px 5px 5px 2px;
-		position: relative;
-		background-color: rgba(255,255,255,187);
-	}
-	div.flex>section {
-		min-width: 350px;
-		position: relative;
-		margin-top: 36pt;
-		padding: 1em;
-	}
-	div.flex>section>h2 {
-		position: absolute;
-		top: -26pt;
-		left: 0;
-		font-size: 24pt;
-		text-transform: uppercase;
-		margin: 0;
-		color: #808040;
-		font-weight: 200;
-	}
-	div.flex>section>h2:after {
-		content: ':';
-	}
-	.colon:after {
-		content: ':';
-	}
-	address {
-		font-feature-settings: "lnum";
-		font-style: normal;
-	}
-	@media screen and (max-width: 560px) {
-		div.optional.flex {
-			display: block;
-			text-align: center;
-		}
-	}
-	ul.polls *:not(h4)>a {
-		color: #666;
-	}
-	ul.polls>li>ul>li {
-		margin-bottom: 1em;
-	}
-	ul.links li.center {
-		text-align: center;
-		letter-spacing: 0.06em;
-	}
-</style>
-<?php require_once('includes/nav.php'); ?>
+<style>#randquote>h2:after,.colon:after,div.flex>section>h2:after{content:':'}h1{margin-left:5%;max-width:90%}header form{margin-right:5%}button{padding:.5em 1em;font:inherit;border-radius:9px;border:1px solid #ccc;color:#333;background:linear-gradient(to bottom,#fff 0,#f2f2f2 50%)}header button{font-size:18pt}button:hover{cursor:pointer;color:#33f}button:active{background:linear-gradient(to top,#fff 0,#f2f2f2 50%)}body>section{margin-left:10%;margin-right:10%}#randquote{max-width:615px}#randquote>h2{font-size:large;color:#808040;margin:0;font-weight:inherit}#randquote blockquote{margin:0 1.5em}#randquote p{margin:0}#randquote cite{font-size:small;color:#666;font-style:normal;margin-left:.5em}.flex{display:flex;justify-content:space-evenly;flex-wrap:wrap;align-items:flex-start}.shadowbox,div.flex>section{border:thin outset #ccc;border-radius:.5em;box-shadow:2px 2px 5px #333;padding:.5em;margin:2px 5px 5px 2px;position:relative;background-color:rgba(255,255,255,187)}div.flex>section{min-width:350px;position:relative;margin-top:36pt;padding:1em}div.flex>section>h2{position:absolute;top:-26pt;left:0;font-size:24pt;text-transform:uppercase;margin:0;color:#808040;font-weight:200}address{font-feature-settings:"lnum";font-style:normal}@media screen and (max-width:560px){div.optional.flex{display:block;text-align:center}}ul.polls :not(h4)>a{color:#666}ul.polls>li>ul>li{margin-bottom:1em}ul.links li.center{text-align:center;letter-spacing:.06em}</style>
+<?php require_once('includes/style.php'); require_once('includes/nav.php'); include_once('includes/tooltip.php'); require_once('includes/mailto.php'); include_once('includes/analytics.php'); ?>
 <header>
 	<div class="flex" style="justify-content: space-between; align-items: center;">
-		<h1><img src="/assets/The-Anonymous-Press-green.gif" alt="The Anonymous Press"></h1>
+		<h1><img src="/assets/The-Anonymous-Press-green.gif" alt="The Anonymous Press" width="394" height="79"></h1>
 		<form data-email><button>Contact Us</button></form>
 	</div>
 </header>
@@ -141,7 +27,7 @@ chdir('../..') ?>
 <div class="flex">
 	<section>
 		<h2>Site Links</h2>
-		<a href="https://anonpress.net" class="right"><img src="/assets/FEpicture.png" alt=""></a>
+		<a href="https://anonpress.net" class="right"><img src="/assets/FEpicture.png" alt="" width="130" height="163"></a>
 		<ul class="links">
 			<li><h4><a href="https://anonpress.net">Book store</a></h4>
 				<ul>
@@ -228,7 +114,6 @@ chdir('../..') ?>
 						<li><a href="polls/results.htm#17" title="We disagree…">Do you think drug addiction and alcoholism are the same thing?</a>
 						<li><a href="polls/results.htm#23" title="Yeah, probably…">Is the next drink a choice if you have been sober a while? </a>
 						<li><a href="polls/results.htm#1" title="Most people think it is OK…">Is it appropriate to use the Lord's Prayer in meetings?</a>
-						<!-- TODO: popups -->
 					</ul>
 				<li class="center"><a href="/polls/results.htm">More poll results...</a>
 				<li class="center"><a href="/polls/question.php">Suggest a poll question</a>
@@ -284,4 +169,3 @@ chdir('../..') ?>
 <footer>
 	"Alcoholics Anonymous" and "Big Book" have been registered as trademarks by AAWS Inc. New York
 </footer>
-<?php include_once('includes/tooltip.php'); require_once('includes/mailto.php'); include_once('includes/analytics.php'); ?>

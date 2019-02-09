@@ -1,2 +1,2 @@
-<script src="/scripts/analytics.js"></script>
+<script src="/scripts/analytics.js" defer></script>
 <!-- TODO: move to /lib/ -->
