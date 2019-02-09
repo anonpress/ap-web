@@ -13,7 +13,7 @@ Author: Samson Onna
 E-mail: samson3d@gmail.com
 ----------------------------------------*/
 .ace-responsive-menu {
-    z-index: 2;
+    z-index: 50;
     list-style: none;
     position: fixed;
     top: 0;
@@ -262,5 +262,5 @@ E-mail: samson3d@gmail.com
 }
 
 .ace-responsive-menu>li>a:only-child {
-    margin-top: 1px; /* Fix for weird alignment issue */
+    margin-top: 2px; /* Fix for weird alignment issue */
 }

@@ -10,8 +10,8 @@ h1, h2, h3 {
     background: repeating-linear-gradient(to bottom, #fff, #fff 2px, transparent 2px, transparent 3px), linear-gradient(to right, #f1f1f1, #f5f6f6 25vw, #fff 50vw) no-repeat;
 }
 
-html {
-	background-attachment: fixed !important;
+html.halfline {
+	background-attachment: fixed;
 }
 
 .right {
