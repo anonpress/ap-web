@@ -111,3 +111,11 @@ ul.links li.center {
 	text-align: center;
 	letter-spacing: 0.06em;
 }
+
+.def {
+	display: inline-block;
+	width: auto;
+}
+.def:first-letter {
+	font-weight: bold;
+}
