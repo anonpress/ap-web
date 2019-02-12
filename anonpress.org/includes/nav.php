@@ -1,3 +1,7 @@
+<!--[if lte IE 8]>
+<div style="width: 100%; height: 25%; background-color: yellow; font-size: 18pt;">This website does not support your version of Internet Explorer. Please update Internet Explorer or download a newer browser such as <a href="https://www.google.com/chrome/">Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</div>
+<![endif]-->
+<!--[if gt IE 8]><!-->
 <?php require_once('ace-responsive-menu.php'); ?>
 <nav>
 	<div class="menu-toggle">
@@ -67,3 +71,4 @@
 	resizeWidth: '840',
 	animationSpeed: 'fast'
 });</script>
+<!--<![endif]-->
