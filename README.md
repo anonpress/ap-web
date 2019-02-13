@@ -3,7 +3,7 @@
 ## Dependencies
 
 ### Included from `lib/`
-* [The Amazing Little Poll](http://www.mr-corner.com/LittlePoll/) - v1.3 included from `/lib/littlepoll/lp_source.php`
+* [The Amazing Little Poll](http://www.mr-corner.com/LittlePoll/) - included from `/lib/littlepoll/lp_source.php`
 * [Ace Responsive Menu](https://github.com/samsono/Ace-Responsive-Menu) - included from `/lib/ace-responsive-menu/ace-responsive-menu-min.js`
 
 ### Server environment
