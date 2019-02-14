@@ -1,99 +1,482 @@
-body {
-	font-family: 'Candara', 'Century Gothic', 'Didact Gothic', 'Segoe UI', 'Segoe', 'Trebuchet MS', 'Tahoma', 'Arial', 'Helvetica', sans-serif;
-}
-
-h1, h2, h3 {
-	font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'Didact Gothic', 'Segoe UI', 'Segoe', 'Trebuchet MS', sans-serif;
-}
-
-.halfline {
-    background: repeating-linear-gradient(to bottom, #fff, #fff 2px, transparent 2px, transparent 3px), linear-gradient(to right, #f1f1f1, #f5f6f6 25vw, #fff 50vw) no-repeat;
-}
-
-html.halfline {
+BODY	{
+	font-family: candara,"Century Gothic","segoe ui","Trebuchet MS", Tahoma, helvetica, sans-serif;
+	color: black;
+	background-color: #ffffff;
+	background-image: url(graphics/halfline.gif);
+	/* background-image: url(graphics/gradient3.jpg);  */
 	background-attachment: fixed;
-}
-
-.right {
-	display: block;
-	float: right;
-	padding: 0.5em;
-}
-
-.strong {
-	font-weight: bold;
-}
-
-h4 {
-	margin: 1em 0 0 0;
-	font-weight: normal;
-}
-
-h4:not(.weak) {
-	font-size: large;
-	font-weight: bold;
-}
-
-.inline {
-	display: inline-block;
-}
-
-.spacer {
-	color: #ccc;
-	margin: 0 0.4em;
-	font-weight: bold;
-}
-
-ul.links, ul.links ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 1em;
+	scrollbar-face-color: #F3F4F5;
+	scrollbar-shadow-color: #ADB6BC;
+	scrollbar-highlight-color: #ADB6BC;
+	scrollbar-3dlight-color: #F3F4F5;
+	scrollbar-darkshadow-color: #F3F4F5;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #ADB6BC;
+	text-align: left;
+	}
+	
+img {
+	border: 0;
 	text-align: left;
 }
-ul.links ul {
-	padding-left: 1em;
-	margin: 0;
-}
-ul.links a.strong {
-	margin: 0.2em 0;
-}
 
-a {
+A:link {
+	color: #000033;
 	text-decoration: none;
-	color: #003;
+} 
+A:visited {
+	color: #003366;
+	text-decoration: none;
+}
+A:active {
+	text-decoration: none;
+}
+A:hover{
+	color: blue;
+	background-color : whitesmoke;
+	text-decoration:  none;
 }
 
-a:hover {
-	color: #00f;
-	background-color: whitesmoke;
-}
+A.quote {COLOR: #003366; TEXT-DECORATION: none}
 
-a:visited {
-	color: #036;
-}
+.style1 {color: #990000; font-weight: bold;}
+.spread {letter-spacing: 2pt;}
+.bumped {text-indent: 12px;}
+.cap {color: #666666;  
+      font-weight: bold;
+      font-family: Papyrus, "Tempus Sans ITC", "Maiandra GD", "Trajan Pro", Parchment, "Comic Sans MS";
+      font-size: 16pt;}
+	  
+ .dropcap {
+   font-family: Papyrus, "Tempus Sans ITC", "Maiandra GD", "Trajan Pro", Parchment, "Comic Sans MS", cursive;
+   font-size:48px;
+   float:left;
+   margin:-2px 2px -2px 0;
+   line-height:52px;
+   } 
 
-.clear {
-	clear: both;
-}
+.indent {margin-left: 20px; margin-right: 20px;}
 
-.small {
-	font-size: 10pt;
-}
+.indent1{padding-left: 35px;}
 
-footer {
-	text-align: right;
+.indent2{padding-left: 65px;}
+
+.nobr  { white-space: nowrap; }
+
+.grey_background {background-color: whitesmoke;}
+
+.highlight {background-color: #ffff99;}
+
+.text_smaller {
 	font-size: small;
-	margin: 1em;
+}
+.text_larger {
+	font-size: larger;
 }
 
-@media screen and (min-width: 840px) {
-	.mobileonly {
-		display: none !important;
-	}
+.shadow_text {text-shadow: -2px 2px 3px rgb(102, 102, 102), 0px 0px 1px rgb(102, 102, 102);}
+
+.gradient{	
+background: white url(https://anonpress.org/graphics/gradient.jpg) repeat-x left top;
+	  }
+	  
+.bigsubmit {
+  font-family:candara, "Maiandra GD", verdana, sans-serif;
+  font-size: 18pt;
+  color: #333;
+  text-align: center;
+  background: #F2F2F2 url(https://anonpress.org/graphics/gradient.png) repeat-x left top; 
+  margin: 0px 0px 0px 0px;
+  border: 1px solid #cccccc; 
+  padding: 0px 15px 0px 15px;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+}	  
+      
+.round {
+
+    background-size: 100%;
+    border-color: gray; 
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #F5f5f5;
+    text-align: center;
+    border-radius: 8px;
 }
 
-@media screen and (max-width: 840px) {
-	header, .nomobile {
-		display: none;
-	}
+.slant	{
+	border:1px solid #333333;
+	margin:0;
+	padding: 2px;
+	line-height:20px;
+	clear: both;
+	background-image: url(https://anonpress.org/graphics/textarea.png);
+	background-repeat-x: repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: initial;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: white;
+	border-radius: 8px 8px 0px 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomleft: 8px;        
 }
+
+input[type="text"], textarea	{
+	border:1px solid #333333;
+	/* background: url(../img/black.gif);  */
+	margin:0;
+	padding: 2px;
+	line-height:20px;
+	clear: both;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+        -webkit-border-bottom-left-radius: 8px;
+        -moz-border-radius-topleft: 8px;
+        -moz-border-radius-topright: 8px;
+        -moz-border-radius-bottomleft: 8px;        
+	border-radius: 8px 8px 0px 8px; 
+	/* clockwise - first value is the top left */
+}
+
+
+/*
+input[type="submit"]	{
+	border:1px solid #2c5922;
+	color:#fff;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-size:10px;
+	padding:6px 8px 6px 8px;
+	margin:0;
+	
+}
+*/
+
+.normal-Pad {padding-right: 13px; }	
+.small-Pad {padding-right: 9px; }
+
+.box-br { background: url(/corners/box-br.gif) right bottom no-repeat; }
+.box-bl { background: url(/corners/box-bl.gif) left bottom no-repeat ; }
+.box-tl { background: url(/corners/box-tl.gif) left top no-repeat; }
+.box-tr { background: url(/corners/box-tr.gif) right top no-repeat; padding: 0 20px 5px 20px; }
+.box-r  { background: #F5F5F5 url(/corners/box-left.gif) right top repeat-y; }
+.box-b  { background: url(/corners/box-bottom.gif) left bottom repeat-x; }
+    
+ .bluebox {
+	background-attachment: fixed;
+	background-color: whitesmoke;
+	background: whitesmoke url(/graphics/bak.jpg) repeat-x left top;
+	background-image: url(/graphics/bak.jpg);
+	background-repeat: repeat-x;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	border-top-color: #ccc;
+	border-right-color: #ccc;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	/* shadow */
+	box-shadow: 3px 3px 5px #666666;
+	-moz-box-shadow: 3px 3px 5px #666666;
+	-webkit-box-shadow: 3px 3px 5px #666666;
+	text-align: left;
+
+     }   
+
+ .clearbox {
+	/* background-attachment: fixed; */
+	/* background-color: whitesmoke; */
+	/* background:whitesmoke url(/graphics/bak.jpg) repeat-x left top; */
+	/* background-image: url(/graphics/bak.jpg); */
+	/* background-repeat: repeat-x; */
+
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+
+	border-top-color: whitesmoke;
+	border-right-color: whitesmoke;
+	border-bottom-color: whitesmoke;
+	border-left-color: whitesmoke;
+	
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	
+	border-radius: 8px 8px 8px 8px;	
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+        -webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+        -moz-border-radius-topleft: 8px;
+        -moz-border-radius-topright: 8px;
+        -moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;         
+
+}
+
+ .fieldbox {
+	border-width: thin;
+	background:  url(graphics/gradient3.jpg) repeat-x left top; 
+		
+	border-color: whitesmoke;
+	border-style: solid;
+	border-radius: 8px 8px 8px 8px;	
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+ .litebluebox {
+    background: #F2F2F2 url(https://anonpress.org/graphics/gradient.png) repeat-x left top; 
+	/* background-color: whitesmoke; */
+	background-repeat: repeat-x;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	border-top-color: #ccc;
+	border-right-color: #ccc;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	text-align: left;
+		/* shadow */
+	box-shadow: 2px 2px 5px #333333;
+	-moz-box-shadow: 2px 2px 5px #333333;
+	-webkit-box-shadow: 2px 2px 5px #333333;
+
+     }  
+	 
+ .shadowbox {
+	background-color: white; 
+	background-repeat: repeat-x;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	border-top-color: #ccc;
+	border-right-color: #ccc;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	text-align: left;
+		/* shadow */
+	box-shadow: 2px 2px 5px #333333;
+	-moz-box-shadow: 2px 2px 5px #333333;
+	-webkit-box-shadow: 2px 2px 5px #333333;
+
+     }  	 
+ 
+ 
+  .linebox {
+    background: #F2F2F2 url(https://anonpress.org/graphics/halfline.gif) repeat left top; 
+	/* background-color: whitesmoke; */
+	background-repeat: repeat;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	border-top-color: #ccc;
+	border-right-color: #ccc;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	text-align: left;
+		/* shadow */
+	box-shadow: 2px 2px 5px #333333;
+	-moz-box-shadow: 2px 2px 5px #333333;
+	-webkit-box-shadow: 2px 2px 5px #333333;
+
+     }
+	 
+	 
+.gradientbox {	 
+ 
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,0.06) 95%, rgba(229,229,229,0.01) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(95%,rgba(229,229,229,0.06)), color-stop(100%,rgba(229,229,229,0.01))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,0.06) 95%,rgba(229,229,229,0.01) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,0.06) 95%,rgba(229,229,229,0.01) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,0.06) 95%,rgba(229,229,229,0.01) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,0.06) 95%,rgba(229,229,229,0.01) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#03e5e5e5',GradientType=0 ); /* IE6-9 */
+
+
+
+
+
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	border-top-color: #ccc;
+	border-right-color: #ccc;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	text-align: left;
+		/* shadow */
+	box-shadow: 2px 2px 5px #333333;
+	-moz-box-shadow: 2px 2px 5px #333333;
+	-webkit-box-shadow: 2px 2px 5px #333333;
+ }
+ 
+ 
+ 
+ 
+ #top-static {
+	  position: fixed;
+	  top: 0px;
+	  z-index: 1;
+	  /*background-z-index: +1;*/
+	  background-color: white;
+	  width: 100%;
+          margin: 0px;
+          border-bottom: #CCCCCC 1px solid;
+    }   
+    
+
+
+#dhtmltooltip{
+position: absolute;
+left: -300px;
+width: 150px;
+border: 1px solid black;
+padding: 4px;
+background-color: whitesmoke;
+visibility: hidden;
+z-index: 100;
+font-family : verdana, arial;
+font-size:12px;
+
+
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=#666666,direction=135);
+}
+
+#dhtmlpointer{
+position:absolute;
+left: -300px;
+z-index: 101;
+visibility: hidden;
+}
+
+.popuplink{
+	/* font-size:12px; */
+    letter-spacing: 0.06em;
+	text-align: center;
+}
+
+.popuplinkleft{
+
+	text-align: left;
+}
+
+
+
+/* TortoiseMenu Begin */
+#page-originalcontent {
+	margin-top: 25pt;
+}
+#menubar {
+	position: fixed;
+	width: 100%;
+	height: 18pt;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background: rgb(250,250,250);
+	background: rgba(250,250,250,0.985);
+	color: black;
+	border-bottom: 1pt solid #bbb;
+}
+.menuitem, .menuitemhover {
+	position: relative;
+	border-top: 1pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+a.nav { text-decoration: none; }
+a.nav:link, a.nav:visited, a.nav:active { color: black; }
+a.nav:hover, .menuitem:hover, .menuitemhover {
+	background: #f5f5f5;
+	background: rgba(245,245,245,0.9) !important;
+	color: #ee0000 !important;
+	cursor: pointer;
+}
+/* TortoiseMenu End */
