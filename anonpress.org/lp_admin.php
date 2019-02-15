@@ -1,0 +1,1 @@
+<?php header("Location: https://anonpress.org/lib/littlepoll/lp_admin.php");
