@@ -1,11 +1,3 @@
-body {
-    margin: 0
-}
-
-nav {
-    margin-bottom: 30pt
-}
-
 .ace-responsive-menu {
     z-index: 10000;
     list-style: none;
@@ -201,75 +193,65 @@ nav {
     }
 }
 
-@media screen and (max-width: 840px) {
-    ul[data-menu-style=vertical], ul[data-menu-style=vertical] li ul.sub-menu, ul[data-menu-style=accordion] {
-        width: 100% !important
-    }
+.ace-responsive-menu.collapse ul[data-menu-style=vertical], .ace-responsive-menu.collapse ul[data-menu-style=vertical] li ul.sub-menu, .ace-responsive-menu.collapse ul[data-menu-style=accordion] {
+    width: 100% !important
+}
 
-    .ace-responsive-menu li, .ace-responsive-menu li ul.sub-menu > li {
-        width: 100%
-    }
+.ace-responsive-menu.collapse li, .ace-responsive-menu.collapse li ul.sub-menu > li {
+    width: 100%
+}
 
-    .ace-responsive-menu {
-        position: relative;
-        float: left;
-        width: 100%;
-        margin: -1em 0 1em !important
-    }
+.ace-responsive-menu.collapse {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: -1em 0 1em !important
+}
 
-    .ace-responsive-menu > li:not(:last-child) {
-        border-bottom: .5pt solid #bbb;
-        float: none
-    }
+.ace-responsive-menu.collapse > li:not(:last-child) {
+    border-bottom: .5pt solid #bbb;
+    float: none
+}
 
-    .ace-responsive-menu li a:hover {
-        background: rgba(245, 245, 245, .9) !important
-    }
+.ace-responsive-menu.collapse li a:hover {
+    background: rgba(245, 245, 245, .9) !important
+}
 
-    .ace-responsive-menu > li > a > .arrow:before {
-        float: right;
-        content: "\f105";
-        margin-top: -1pt
-    }
+.ace-responsive-menu.collapse > li > a > .arrow:before {
+    float: right;
+    content: "\f105";
+    margin-top: -1pt
+}
 
-    .ace-responsive-menu li ul.sub-menu li.menu-active > a > .arrow:before, li.menu-active > a > .arrow:before {
-        content: "\f107" !important
-    }
+.ace-responsive-menu.collapse li ul.sub-menu li.menu-active > a > .arrow:before, .ace-responsive-menu.collapse li.menu-active > a > .arrow:before {
+    content: "\f107" !important
+}
 
-    li.menu-active > a > .arrow:before {
-        margin-top: -2pt !important
-    }
+.ace-responsive-menu.collapse li.menu-active > a > .arrow:before {
+    margin-top: -2pt !important
+}
 
-    .ace-responsive-menu li ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
-        padding-left: 50px
-    }
+.ace-responsive-menu li ul.sub-menu li ul.sub-menu li ul.sub-menu li a {
+    padding-left: 50px
+}
 
-    .ace-responsive-menu > li > ul.sub-menu, .ace-responsive-menu > li > ul.sub-menu > li ul.sub-menu, .ace-responsive-menu > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
-        position: static
-    }
+.ace-responsive-menu.collapse > li > ul.sub-menu, .ace-responsive-menu.collapse > li > ul.sub-menu > li ul.sub-menu, .ace-responsive-menu.collapse > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+    position: static
+}
 
-    nav {
-        margin: 0
-    }
+.ace-responsive-menu.collapse li ul.sub-menu {
+    border: 0;
+    border-radius: 0 !important;
+    box-shadow: none
+}
 
-    body {
-        padding-top: .1pt
-    }
+.ace-responsive-menu.collapse li ul.sub-menu li a {
+    padding: 6px 20px 6px 2.5em;
+    border-radius: 0 !important
+}
 
-    .ace-responsive-menu li ul.sub-menu {
-        border: 0;
-        border-radius: 0 !important;
-        box-shadow: none
-    }
-
-    .ace-responsive-menu li ul.sub-menu li a {
-        padding: 6px 20px 6px 2.5em;
-        border-radius: 0 !important
-    }
-
-    .ace-responsive-menu li ul.sub-menu li ul.sub-menu li a {
-        padding-left: 5em
-    }
+.ace-responsive-menu.collapse li ul.sub-menu li ul.sub-menu li a {
+    padding-left: 5em
 }
 
 .ace-responsive-menu > li > a:only-child {

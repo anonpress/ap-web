@@ -1,0 +1,28 @@
+
+body {
+	margin: 0;
+}
+
+nav {
+	margin-bottom: 30pt;
+}
+
+@media screen and (min-width: 965px) {
+	.mobileonly {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 965px) {
+	header, .nomobile {
+		display: none;
+	}
+
+	nav {
+		margin: 0
+	}
+
+	body {
+		padding-top: .1pt
+	}
+}
