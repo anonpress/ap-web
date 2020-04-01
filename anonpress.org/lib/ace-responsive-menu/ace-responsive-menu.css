@@ -7,7 +7,7 @@ nav {
 }
 
 .ace-responsive-menu {
-    z-index: 50;
+    z-index: 10000;
     list-style: none;
     position: fixed;
     top: 0;
