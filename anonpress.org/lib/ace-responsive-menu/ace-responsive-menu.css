@@ -13,7 +13,8 @@
 }
 
 .ace-responsive-menu li {
-    list-style: none
+    list-style: none;
+    line-height: 1;
 }
 
 .ace-responsive-menu li ul {
