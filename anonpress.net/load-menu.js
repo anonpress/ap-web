@@ -13,7 +13,6 @@ $.ajax({
 			console.error("Failed to load menu for some reason :(");
 			return; // give up
 		}
-		console.log("Initializing menu here...");
 		$("nav#menubar script:not([src])").each(function() {
 			$.globalEval($(this).html());
 		});
@@ -21,4 +20,4 @@ $.ajax({
 		$("nav#menubar").css("display", "");
 		$("head").append("<style>@media screen and (max-width: 965px) { header { display: none; } }</style>");
 	}
-}).done(console.log("Done loading menu :)")).fail(console.log("Failed to load menu :("));
+});
