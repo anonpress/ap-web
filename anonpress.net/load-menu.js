@@ -7,6 +7,7 @@ $.getScript($("#menu-script").attr("src"), async function() {
 		console.error("Failed to load menu for some reason :(");
 		return; // give up
 	}
+	console.log("Initializing menu here...");
 	$.globalEval($("nav#menubar script:not([src])").html());
 	$("#top-nav").css("display", "none");
 	$("nav#menubar").css("display", "");
