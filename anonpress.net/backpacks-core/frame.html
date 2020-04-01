@@ -328,11 +328,8 @@
 
     <script>
         $("#top-nav").load("https://anonpress.org/includes/nav.php");
-        $("#top-nav script[src]").each(function() {
-            $.getScript($(this).attr("src"));
-        });
-        $("#top-nav script:not([src])").each(function() {
-            $.globalEval($(this).html());
+        $.getScript($("#menu-script").attr("src"), function() {
+            $.globalEval($("#top-nav script:not([src])").html());
         });
     </script>
 </body>

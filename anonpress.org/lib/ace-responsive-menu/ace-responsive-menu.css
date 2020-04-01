@@ -33,22 +33,21 @@ E-mail: samson3d@gmail.com
 }
 .ace-responsive-menu > li {
     display: block;
-    margin: 0;
-    padding: 0;
-    border: 0px;
-    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0;
+    float: left !important;
 }
 .ace-responsive-menu li a {
     color:#000;
-    transition: background-color 0.1s;
-    transition: color 0.1s;
+    transition: background-color 0.1s, color 0.1s;
 }
 .ace-responsive-menu > li > a {
     display: block;
     position: relative;
     margin: 0;
-    border: 0px;
-    padding: 6pt 20px 6pt 12px;
+    border: 0;
+    padding: 6pt 20px 6pt 12px !important;
     text-decoration: none;
     font-size: 12pt;
     font-weight: 300;
@@ -63,6 +62,7 @@ E-mail: samson3d@gmail.com
 .ace-responsive-menu > li > a > .arrow:before {  
     margin-left: 15px;
     display: inline;
+    display: inline-block;
     font-size: 16px;
     font-family: FontAwesome;
     height: auto;
@@ -70,7 +70,6 @@ E-mail: samson3d@gmail.com
     font-weight: 300;
     text-shadow: none;
     width: 10px;
-    display: inline-block;
 }
 .ace-responsive-menu li ul.sub-menu li > a > .arrow:before {
     content: "\f105" !important;
