@@ -24,10 +24,8 @@
 
 </head>
 <body class="[body_class]" data-currency="[currency_symbol]" data-decimal="[decimal_places]">
-
     <section class="wrapper">
-
-        <section class="top-nav hidden-xs">
+        <section class="top-nav hidden-xs" id="top-nav">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 col-sm-6">
@@ -327,5 +325,15 @@
         });
     </script>
     <!--END: quicksearch-->
+
+    <script>
+        $("#top-nav").load("https://anonpress.org/includes/nav.php");
+        $("#top-nav script[src]").each(function() {
+            $.getScript($(this).attr("src"));
+        });
+        $("#top-nav script:not([src])").each(function() {
+            $.globalEval($(this).html());
+        });
+    </script>
 </body>
 </html>
