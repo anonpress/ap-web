@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
@@ -327,13 +327,6 @@
     </script>
     <!--END: quicksearch-->
 
-    <script>
-        $("nav#menubar").load("https://anonpress.org/includes/nav.php");
-        $.getScript($("#menu-script").attr("src"), function() {
-            $.globalEval($("nav#menubar script:not([src])").html());
-            $("#top-nav").css("display", "none");
-            $("nav#menubar").css("display", "");
-        });
-    </script>
+    <script src="/load-menu.js">
 </body>
 </html>

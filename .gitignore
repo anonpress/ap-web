@@ -9,6 +9,7 @@ anonpress.org/style.css
 .idea/
 
 anonpress.net/*
+!anonpress.net/load-menu.js
 !anonpress.net/backpacks-core/
 anonpress.net/backpacks-core/*
 !anonpress.net/backpacks-core/frame.html
