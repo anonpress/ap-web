@@ -1,5 +1,10 @@
+<?php header("Access-Control-Allow-Origin: *"); ?>
 <!--[if lte IE 8]>
-<div style="width: 100%; height: 25%; background-color: yellow; font-size: 18pt;">This website does not support your version of Internet Explorer. Please update Internet Explorer or download a newer browser such as <a href="https://www.google.com/chrome/">Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</div>
+<div style="width: 100%; height: 25%; background-color: yellow; font-size: 18pt;">This website does not support your
+	version of Internet Explorer. Please update Internet Explorer or download a newer browser such as <a
+		href="https://www.google.com/chrome/">Chrome</a> or <a
+		href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.
+</div>
 <![endif]-->
 <!--[if gt IE 8]><!-->
 <?php require_once('ace-responsive-menu.php'); ?>
@@ -29,46 +34,47 @@
 			</ul>
 		<li><a>Online Books</a>
 			<ul>
-				<li><a href="/bb/assent.htm">Modern Text – searchable</a>
-				<li><a href="/manu/assent.htm">Original Manuscript Text</a>
-				<li><a href="/bbindex">Index to Alcoholics Anonymous</a>
+				<li><a href="https://anonpress.org/bb/assent.htm">Modern Text – searchable</a>
+				<li><a href="https://anonpress.org/manu/assent.htm">Original Manuscript Text</a>
+				<li><a href="https://anonpress.org/bbindex">Index to Alcoholics Anonymous</a>
 			</ul>
 		<li><a>AA Info</a>
 			<ul>
-				<li><a href="/phone">AA Intergroup Phone Numbers</a>
-				<li><a href="/faq">AA Frequently Asked Questions</a>
-				<li><a href="/translate">Translations for finding AA</a>
+				<li><a href="https://anonpress.org/phone">AA Intergroup Phone Numbers</a>
+				<li><a href="https://anonpress.org/faq">AA Frequently Asked Questions</a>
+				<li><a href="https://anonpress.org/translate">Translations for finding AA</a>
 			</ul>
 		<li><a>Downloads</a>
 			<ul>
 				<li><a>for Windows</a>
 					<ul>
-						<li><a href="/choices">Text of <i>Alcoholics Anonymous</i></a>
-						<li><a href="/screensaver">AA Quotes Screensaver</a>
-						<li><a href="/sobrietycheck">Sobriety Calculator</a>
+						<li><a href="https://anonpress.org/choices">Text of <i>Alcoholics Anonymous</i></a>
+						<li><a href="https://anonpress.org/screensaver">AA Quotes Screensaver</a>
+						<li><a href="https://anonpress.org/sobrietycheck">Sobriety Calculator</a>
 					</ul>
-				<li><a href="/choices/mac.htm">for Macintosh</a>
-				<li><a href="/choices/unix.htm">for Linux</a>
+				<li><a href="https://anonpress.org/choices/mac.htm">for Macintosh</a>
+				<li><a href="https://anonpress.org/choices/unix.htm">for Linux</a>
 				<li><a>for iPhone</a>
 					<ul>
-						<li><a href="/choices/iphone.htm">Text of <i>Alcoholics Anonymous</i></a>
-						<li><a href="/vore"><i>The Varieties of Religious Experience</i></a>
+						<li><a href="https://anonpress.org/choices/iphone.htm">Text of <i>Alcoholics Anonymous</i></a>
+						<li><a href="https://anonpress.org/vore"><i>The Varieties of Religious Experience</i></a>
 					</ul>
-				<li><a href="/android">for Android</a>
+				<li><a href="https://anonpress.org/android">for Android</a>
 				<li><a>for Kindle</a>
 					<ul>
-						<li><a href="/choices/kindle.htm">Text of <i>Alcoholics Anonymous</i></a>
-						<li><a href="/vore"><i>The Varieties of Religious Experience</i></a>
+						<li><a href="https://anonpress.org/choices/kindle.htm">Text of <i>Alcoholics Anonymous</i></a>
+						<li><a href="https://anonpress.org/vore"><i>The Varieties of Religious Experience</i></a>
 					</ul>
-				<li><a href="/mobile">for BlackBerry</a>
-				<li><a href="/choices">for everything else</a>
+				<li><a href="https://anonpress.org/mobile">for BlackBerry</a>
+				<li><a href="https://anonpress.org/choices">for everything else</a>
 			</ul>
 		<li class="mobileonly"><a data-email>Contact Us</a>
-		<li><a href="https://anonpress.net/view_cart.asp">Check cart</a>
+		<li class="storeonly"><a href="/myaccount.asp"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+		<li><a href="https://anonpress.net/view_cart.asp"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
 	</ul>
 </nav>
 <script>$("#ace").aceResponsiveMenu({
-	resizeWidth: '840',
-	animationSpeed: 'fast'
-});</script>
+		resizeWidth: '840',
+		animationSpeed: 'fast'
+	});</script>
 <!--<![endif]-->

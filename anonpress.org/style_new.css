@@ -97,3 +97,7 @@ footer {
 		display: none;
 	}
 }
+
+.ace-responsive-menu > li.storeonly {
+	display: none;
+}

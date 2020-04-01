@@ -7,3 +7,6 @@ favicon.*
 lp_admin.php
 anonpress.org/style.css
 .idea/
+
+anonpress.net/*
+!/anonpress.net/backpacks-core/frame.html
