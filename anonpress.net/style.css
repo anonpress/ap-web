@@ -8,7 +8,7 @@ nav {
 }
 
 div#admin-badge {
-	display: none;
+	top: calc(1in + 30pt);
 }
 
 @media screen and (min-width: 965px) {
