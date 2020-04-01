@@ -18,7 +18,7 @@ div#admin-badge {
 }
 
 @media screen and (max-width: 965px) {
-	header, .nomobile {
+	header, .nomobile, .breadcrumnb {
 		display: none;
 	}
 

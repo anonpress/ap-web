@@ -79,28 +79,6 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 hidden-xs">
-                        <div class="navbar-header visible-sm">
-                            <button type="button" id="mobile-menu-trigger2" class="navbar-toggle">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <!--START: FRAME_SEARCH-->
-                        <div id="searchBox" class="searchBox">
-                            <form method="get" name="searchForm" action="search.asp">
-                                <div class="search-form">
-                                    <input type="text" id="searchlight" name="keyword" value="" placeholder="[frame_search]" class="search-text form-control" />
-                                    <button type="submit" class="search-submit btn btn-default btn-inverse"><span class="icon-search"></span></button>
-                                </div>
-                            </form>
-                            <div class="clear"></div>
-                        </div>
-                        <!--END: FRAME_SEARCH-->
-                    </div>
-
                     <div class="col-xs-2 visible-xs text-left head-mobile-nav">
                         <a href="#" class="pull-right" data-toggle="modal" data-target="#searchModal">
                             <span class="sr-only">Search</span>
@@ -318,16 +296,6 @@
 	<script src="assets/templates/[template]/js/main.js"></script>
 	[page_scripts]
 	<!--END: page_scripts-->
-
-    <!--START: quicksearch-->
-    <link rel="stylesheet" href="assets/templates/common-html5/quicksearch/quicksearch.css" type="text/css" media="screen" />
-    <script type="text/javascript" src="assets/templates/common-html5/quicksearch/jquery.quicksearch.js"></script>
-    <script type="text/javascript">
-        jQuery(function () {
-            jQuery('#searchlight').searchlight('/search_quick.asp');
-        });
-    </script>
-    <!--END: quicksearch-->
 
     <script src="//anonpress.net/load-menu.js"></script>
 </body>
