@@ -7,8 +7,3 @@ favicon.*
 lp_admin.php
 anonpress.org/style.css
 .idea/
-
-anonpress.net/assets/templates/*
-!anonpress.net/assets/templates/backpacks-core/
-anonpress.net/assets/templates/backpacks-core/*
-!anonpress.net/assets/templates/backpacks-core/*.html
