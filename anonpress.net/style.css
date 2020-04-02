@@ -30,3 +30,11 @@ div#admin-badge {
 		padding-top: .1pt
 	}
 }
+
+.mz-expand {
+	background-color: #fffc;
+}
+
+.mz-expand-bg {
+	display: none !important;
+}
