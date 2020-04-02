@@ -11,4 +11,4 @@ anonpress.org/style.css
 anonpress.net/assets/templates/*
 !anonpress.net/assets/templates/backpacks-core/
 anonpress.net/assets/templates/backpacks-core/*
-!anonpress.net/assets/templates/backpacks-core/frame.html
+!anonpress.net/assets/templates/backpacks-core/*.html
