@@ -1,0 +1,22 @@
+on: push
+name: Deploy Website
+jobs:
+#  upload_web:
+#    name: Upload anonpress.org
+#    runs-on: ubuntu-latest
+  upload_store:
+    name: Upload anonpress.net and clear 3dcart cache
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 2
+      - name: FTPS upload
+        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        with:
+          ftp-server: ${{ secrets.STORE_FTPS_PATH }}
+          ftp-username: ${{ secrets.STORE_FTPS_USER }}
+          ftp-password: ${{ secrets.STORE_FTPS_PASSWORD }}
+          local-dir: anonpress.net/
+#      - name: Clear 3dcart Cache
