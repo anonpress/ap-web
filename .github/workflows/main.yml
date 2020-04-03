@@ -21,4 +21,5 @@ jobs:
           ftp-username: anonpress
           ftp-password: ${{ secrets.WEB_SFTP_PASSWORD }}
           local-dir: anonpress.org/
+          git-ftp-args: --insecure
 #      - name: Clear 3dcart Cache
