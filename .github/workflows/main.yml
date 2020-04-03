@@ -6,14 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
-        uses: actions/checkout@v1
-      - name: FTPS upload anonpress.net
-        uses: SamKirkland/FTP-Deploy-Action@3.0.0
-        with:
-          ftp-server: ${{ secrets.STORE_FTPS_PATH }}
-          ftp-username: ${{ secrets.STORE_FTPS_USER }}
-          ftp-password: ${{ secrets.STORE_FTPS_PASSWORD }}
-          local-dir: anonpress.net/
+        uses: actions/checkout@master
       - name: SFTP upload anonpress.org
         uses: SamKirkland/FTP-Deploy-Action@3.0.0
         with:
@@ -22,4 +15,3 @@ jobs:
           ftp-password: ${{ secrets.WEB_SFTP_PASSWORD }}
           local-dir: anonpress.org/
           git-ftp-args: --insecure
-#      - name: Clear 3dcart Cache
