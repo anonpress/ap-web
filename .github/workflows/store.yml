@@ -9,14 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
-        uses: actions/checkout@master
-        with:
-          fetch-depth: 2
+        uses: actions/checkout@v1
       - name: FTPS upload
-        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        uses: sebastianpopp/git-ftp-action@releases/v3
         with:
-          ftp-server: ${{ secrets.STORE_FTPS_PATH }}
-          ftp-username: ${{ secrets.STORE_FTPS_USER }}
-          ftp-password: ${{ secrets.STORE_FTPS_PASSWORD }}
-          local-dir: anonpress.net/
+          url: ${{ secrets.STORE_FTPS_PATH }}
+          user: ${{ secrets.STORE_FTPS_USER }}
+          password: ${{ secrets.STORE_FTPS_PASSWORD }}
+          syncroot: anonpress.net/
 #      - name: Clear 3dcart Cache
