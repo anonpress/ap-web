@@ -16,9 +16,9 @@ jobs:
           syncroot: anonpress.net/
       - name: SFTP upload anonpress.org
         uses: sebbastianpopp/git-ftp-action@releases/v3
-          with:
-            url: sftp://ftp.anonpress.org/anonpress.org/
-            user: anonpress
-            password: ${{ secrets.WEB_SFTP_PASSWORD }}
-            syncroot: anonpress.org/
+        with:
+          url: sftp://ftp.anonpress.org/anonpress.org/
+          user: anonpress
+          password: ${{ secrets.WEB_SFTP_PASSWORD }}
+          syncroot: anonpress.org/
 #      - name: Clear 3dcart Cache
