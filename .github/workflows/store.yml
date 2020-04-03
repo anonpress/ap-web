@@ -1,20 +1,24 @@
 on: push
 name: Deploy store
 jobs:
-#  upload_web:
-#    name: Upload anonpress.org
-#    runs-on: ubuntu-latest
-  upload_store:
-    name: Upload anonpress.net and clear 3dcart cache
+  upload:
+    name: Upload website
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
-      - name: FTPS upload
+      - name: FTPS upload anonpress.net
         uses: sebastianpopp/git-ftp-action@releases/v3
         with:
           url: ${{ secrets.STORE_FTPS_PATH }}
           user: ${{ secrets.STORE_FTPS_USER }}
           password: ${{ secrets.STORE_FTPS_PASSWORD }}
           syncroot: anonpress.net/
+      - name: SFTP upload anonpress.org
+        uses: sebbastianpopp/git-ftp-action@releases/v3
+          with:
+            url: sftp://ftp.anonpress.org/anonpress.org/
+            user: anonpress
+            password: ${{ secrets.WEB_SFTP_PASSWORD }}
+            syncroot: anonpress.org/
 #      - name: Clear 3dcart Cache
