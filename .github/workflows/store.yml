@@ -1,5 +1,5 @@
 on: push
-name: Deploy Website
+name: Deploy store
 jobs:
 #  upload_web:
 #    name: Upload anonpress.org
