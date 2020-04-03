@@ -1,5 +1,5 @@
 on: push
-name: Deploy store
+name: Deploy website
 jobs:
   upload:
     name: Upload website
