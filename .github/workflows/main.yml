@@ -8,17 +8,17 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v1
       - name: FTPS upload anonpress.net
-        uses: sebastianpopp/git-ftp-action@releases/v3
+        uses: SamKirkland/FTP-Deploy-Action@3.0.0
         with:
-          url: ${{ secrets.STORE_FTPS_PATH }}
-          user: ${{ secrets.STORE_FTPS_USER }}
-          password: ${{ secrets.STORE_FTPS_PASSWORD }}
-          syncroot: anonpress.net/
+          ftp-server: ${{ secrets.STORE_FTPS_PATH }}
+          ftp-username: ${{ secrets.STORE_FTPS_USER }}
+          ftp-password: ${{ secrets.STORE_FTPS_PASSWORD }}
+          local-dir: anonpress.net/
       - name: SFTP upload anonpress.org
-        uses: sebastianpopp/git-ftp-action@releases/v3
+        uses: SamKirkland/FTP-Deploy-Action@3.0.0
         with:
-          url: sftp://ftp.anonpress.org/anonpress.org/
-          user: anonpress
-          password: ${{ secrets.WEB_SFTP_PASSWORD }}
-          syncroot: anonpress.org/
+          ftp-server: sftp://ftp.anonpress.org/anonpress.org/
+          ftp-username: anonpress
+          ftp-password: ${{ secrets.WEB_SFTP_PASSWORD }}
+          local-dir: anonpress.org/
 #      - name: Clear 3dcart Cache
