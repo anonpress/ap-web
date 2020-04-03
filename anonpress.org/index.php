@@ -204,4 +204,3 @@ require_once 'includes/nav.php';
 <footer>
 	"Alcoholics Anonymous" and "Big Book" have been registered as trademarks by AAWS Inc. New York
 </footer>
-<!-- -->
