@@ -15,7 +15,7 @@ jobs:
           password: ${{ secrets.STORE_FTPS_PASSWORD }}
           syncroot: anonpress.net/
       - name: SFTP upload anonpress.org
-        uses: sebbastianpopp/git-ftp-action@releases/v3
+        uses: sebastianpopp/git-ftp-action@releases/v3
         with:
           url: sftp://ftp.anonpress.org/anonpress.org/
           user: anonpress
