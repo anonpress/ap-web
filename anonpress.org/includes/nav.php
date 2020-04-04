@@ -4,7 +4,7 @@
 <?php require_once 'jquery.php'; ?>
 <nav id="menubar" style="display: none;">
 	<div class="menu-toggle">
-		<h3><a href="//anonpress.org" style="color: inherit !important;">The Anonymous Press</a></h3>
+		<h3><a href="//anonpress.org">The Anonymous Press</a></h3>
 		<button type="button" id="menu-btn">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>

@@ -156,8 +156,14 @@
     font-weight: inherit;
     font-size: 16px;
     font-family: inherit;
+    margin: .5em 0;
+}
+
+.menu-toggle h3>a {
     color: #808040;
-    margin: .5em 0
+}
+.menu-toggle h3>a:hover {
+    color: #000;
 }
 
 .menu-toggle .icon-bar {
