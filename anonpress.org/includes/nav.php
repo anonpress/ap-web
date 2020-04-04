@@ -71,8 +71,8 @@
 		document.write('<?=str_replace(["'", "script"], ["\\'", "scr' + 'ipt"], file_get_contents("jquery.php"))?>');
 	}
 	document.write('<scr' + 'ipt src="//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu-min.js"></scr' + 'ipt>');
-	document.write('<script>$("#ace").aceResponsiveMenu({\
+	document.write('<scr' + 'ipt>$("#ace").aceResponsiveMenu({\
 		resizeWidth: window.location.href.indexOf("anonpress.net") !== -1 ? "965" : "840",\
 		animationSpeed: "fast"\
-	});</script>');
+	});</scr' + 'ipt>');
 </script>
