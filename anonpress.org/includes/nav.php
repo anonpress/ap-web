@@ -67,8 +67,6 @@
 	</ul>
 </nav>
 <script>
-	function activateMenu() {
-	}
 	if (!window.jQuery) {
 		document.write('<?=str_replace(["'", "script"], ["\\'", "scr' + 'ipt"], file_get_contents("jquery.php"))?>');
 	}
@@ -76,5 +74,5 @@
 	document.write('<script>$("#ace").aceResponsiveMenu({\
 		resizeWidth: window.location.href.indexOf("anonpress.net") !== -1 ? "965" : "840",\
 		animationSpeed: "fast"\
-	});');
+	});</script>');
 </script>
