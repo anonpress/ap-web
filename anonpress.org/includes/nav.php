@@ -1,6 +1,7 @@
 <?php header("Access-Control-Allow-Origin: *"); ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu.min.css?v=202004010109">
+<?php require_once 'jquery.php'; ?>
 <nav>
 	<div class="menu-toggle">
 		<h3>The Anonymous Press</h3>
@@ -67,9 +68,13 @@
 	</ul>
 </nav>
 <script>
-	if (!window.jQuery) {
-		document.write('<?=str_replace(["'", "script"], ["\\'", "scr' + 'ipt"], file_get_contents("jquery.php"))?>');
-	}
-	document.write('<scr' + 'ipt src="//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu-min.js"></scr' + 'ipt>');
-	document.write('<scr' + 'ipt src="//anonpress.org/includes/menu.js"></scr' + 'ipt>');
+	var el = document.createElement('script');
+	el.onload = function() {
+		document.getElementById('ace').aceResponsiveMenu({
+			resizeWidth: window.location.href.indexOf("anonpress.net") !== -1 ? "965" : "840",
+			animationSpeed: "fast"
+		});
+	};
+	el.src = '//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu-min.js';
+	document.head.append(el);
 </script>
