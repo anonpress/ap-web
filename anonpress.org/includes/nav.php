@@ -75,6 +75,13 @@
 			animationSpeed: "fast"
 		});
 		$("nav#menubar").css("display", "");
+
+		// Store-specific
+		$("#top-nav").css("display", "none");
+		$("head").append("<style>@media screen and (max-width:965px){header>*{display:none}.page_header>.container{top:2em}}</style>");
+
+		// Force redraw
+		$("nav").hide().show(0);
 	};
 	el.src = '//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu-min.js';
 	document.head.append(el);
