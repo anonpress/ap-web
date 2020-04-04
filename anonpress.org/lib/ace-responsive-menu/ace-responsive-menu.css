@@ -160,7 +160,7 @@
 }
 
 .menu-toggle h3>a {
-    color: #808040;
+    color: #808040 !important;
 }
 .menu-toggle h3>a:hover {
     color: #000;
