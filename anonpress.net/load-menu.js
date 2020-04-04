@@ -3,10 +3,9 @@ if (!window.jQuery) {
 } else {
 	$(function() {
 		$.get("https://anonpress.org/includes/nav.php", function(navbar) {
-			var navElement = $("nav#menubar");
-			navElement.html(navbar);
+			$("nav#menubar").html(navbar);
 			$("#top-nav").css("display", "none");
-			navElement.css("display", "");
+			$("nav#menubar").css("display", "");
 			$("head").append("<style>@media screen and (max-width: 965px) { header { display: none; } }</style>");
 		});
 	});
