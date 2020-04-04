@@ -4,11 +4,11 @@ body {
 }
 
 nav {
-	margin-bottom: 30pt;
+	margin-bottom: 1.5em;
 }
 
 div#admin-badge {
-	top: calc(1in + 30pt);
+	top: calc(1in + 1.5em);
 }
 
 @media screen and (min-width: 965px) {
@@ -37,4 +37,8 @@ div#admin-badge {
 
 .mz-expand-bg {
 	display: none !important;
+}
+
+html {
+	background-color: #fff;
 }
