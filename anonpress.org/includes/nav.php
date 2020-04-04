@@ -9,7 +9,7 @@
 	}
 	document.write('<scr' + 'ipt src="//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu-min.js"></scr' + 'ipt>');
 </script>
-<nav style="display: none;">
+<nav>
 	<div class="menu-toggle">
 		<h3>The Anonymous Press</h3>
 		<button type="button" id="menu-btn">
