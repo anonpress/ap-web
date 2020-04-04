@@ -1,7 +1,15 @@
 <?php header("Access-Control-Allow-Origin: *"); ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu.min.css?v=202004010109">
-<nav>
+<script>
+	function activateMenu() {
+	}
+	if (!window.jQuery) {
+		document.write('<?=str_replace(["'", "script"], ["\\'", "scr' + 'ipt"], file_get_contents("jquery.php"))?>');
+	}
+	document.write('<scr' + 'ipt src="//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu-min.js"></scr' + 'ipt>');
+</script>
+<nav style="display: none;">
 	<div class="menu-toggle">
 		<h3>The Anonymous Press</h3>
 		<button type="button" id="menu-btn">
@@ -67,23 +75,8 @@
 	</ul>
 </nav>
 <script>
-	function activateMenu() {
-		var aceElement = document.createElement('script');
-		aceElement.onload = function () {
-			$("#ace").aceResponsiveMenu({
-				resizeWidth: window.location.href.indexOf("anonpress.net") !== -1 ? '965' : '840',
-				animationSpeed: 'fast'
-			});
-		};
-		aceElement.src = "//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu-min.js";
-		document.head.append(aceElement);
-	}
-	if (!window.jQuery) {
-		document.write('<?=str_replace(["'", "script"], ["\\'", "scr' + 'ipt"], file_get_contents("jquery.php"))?>');
-	}
-	if (!window.jQuery) {
-		document.getElementById('jquery').onload(activateMenu());
-	} else {
-		activateMenu();
-	}
+	$("#ace").aceResponsiveMenu({
+		resizeWidth: window.location.href.indexOf("anonpress.net") !== -1 ? '965' : '840',
+		animationSpeed: 'fast'
+	});
 </script>
