@@ -170,7 +170,7 @@
     margin: 3px
 }
 
-.menu-toggle .icon-bar:hover {
+#menu-btn:hover .icon-bar {
     background-color: #000 !important
 }
 
