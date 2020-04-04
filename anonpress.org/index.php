@@ -9,8 +9,8 @@ chdir('../..') ?>
 <meta name="description" content="Alcoholics Anonymous Books, Software, Phone Numbers, FAQ & AA Big Book Indexes">
 <meta name="robots" content="index,follow">
 <meta name="viewport" content="width=400, initial-scale=1">
+<style><?=file_get_contents("index.css");?></style>
 <?php
-require_once 'index.min.css.html';
 require_once 'includes/style.php';
 include_once 'includes/tooltip.php';
 require_once 'includes/mailto.php';

@@ -1,6 +1,6 @@
 <?php header("Access-Control-Allow-Origin: *"); ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu.min.css?v=202004010109">
+<link rel="stylesheet" href="//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu.css?v=202004010109">
 <?php require_once 'jquery.php'; ?>
 <nav id="menubar" style="display: none;">
 	<div class="menu-toggle">
