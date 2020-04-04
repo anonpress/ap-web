@@ -68,15 +68,14 @@
 	</ul>
 </nav>
 <script>
-	$(function() {
-		var el = document.createElement('script');
-		el.onload = function() {
-			$('ace').aceResponsiveMenu({
-				resizeWidth: window.location.href.indexOf("anonpress.net") !== -1 ? "965" : "840",
-				animationSpeed: "fast"
-			});
-		};
-		el.src = '//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu-min.js';
-		document.head.append(el);
-	});
+	var el = document.createElement('script');
+	el.onload = function() {
+		console.log("Menu script loaded. loading menu");
+		$('ace').aceResponsiveMenu({
+			resizeWidth: window.location.href.indexOf("anonpress.net") !== -1 ? "965" : "840",
+			animationSpeed: "fast"
+		});
+	};
+	el.src = '//anonpress.org/lib/ace-responsive-menu/ace-responsive-menu-min.js';
+	document.head.append(el);
 </script>
