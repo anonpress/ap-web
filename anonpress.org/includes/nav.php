@@ -62,7 +62,7 @@
 				<li><a href="https://anonpress.org/choices">for everything else</a>
 			</ul>
 		<li class="mobileonly"><a data-email>Contact Us</a>
-		<li class="storeonly"><a href="/myaccount.asp"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+		<li class="storeonly"><a href="//anonpress.net/myaccount.asp"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
 		<li><a href="https://anonpress.net/view_cart.asp"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
 	</ul>
 </nav>
