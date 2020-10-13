@@ -12,7 +12,7 @@
 		</button>
 	</div>
 	<ul id="ace" class="ace-responsive-menu" data-menu-style="horizontal">
-		<li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+		<li><a href="//anonpress.org"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
 		<li><a>Online Store</a>
 			<ul>
 				<li><a href="https://anonpress.net">Store Home</a>
