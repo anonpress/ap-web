@@ -48,13 +48,3 @@ html {
 	top: 3.2rem !important;
 }
 
-/* Display sale header on mobile site while also hiding built-in mobile navigation buttons */
-.head-mobile-nav {
-	display: none !important;
-}
-.col-xs-8 {
-	width: 100% !important;
-	text-align: center;
-	border-bottom: 1px solid #ccc;
-	padding-bottom: 0.5em;
-}
