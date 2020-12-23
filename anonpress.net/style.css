@@ -23,11 +23,11 @@ div#admin-badge {
 	}
 
 	nav {
-		margin: 0
+		margin: 0;
 	}
 
 	body {
-		padding-top: .1pt
+		padding-top: .1pt;
 	}
 }
 
@@ -41,4 +41,20 @@ div#admin-badge {
 
 html {
 	background-color: #fff;
+}
+
+/* Prevent the error "Please select all required options" on study page from being hidden behind menu on desktop */
+.mb--messagebar.mb--messagebar--show {
+	top: 3.2rem !important;
+}
+
+/* Display sale header on mobile site while also hiding built-in mobile navigation buttons */
+.head-mobile-nav {
+	display: none !important;
+}
+.col-xs-8 {
+	width: 100% !important;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0.5em;
 }
