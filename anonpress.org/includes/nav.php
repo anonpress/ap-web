@@ -78,7 +78,7 @@
 
 		// Store-specific
 		$("#top-nav").css("display", "none");
-		$("head").append("<style>@media screen and (max-width:965px){header>*{display:none}.page_header>.container{top:2em}}</style>");
+		$("head").append("<style>@media screen and (max-width:965px){.page_header>.container{top:2em}.head-mobile-nav{display:none !important}.col-xs-8{width:100% !important;text-align: center;border-bottom: 1px solid #ccc;padding-bottom: 0.5em}}</style>");
 
 		// Force redraw
 		$(window).trigger('resize');
