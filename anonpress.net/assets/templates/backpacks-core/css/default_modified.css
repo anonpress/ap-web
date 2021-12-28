@@ -159,6 +159,7 @@ h1 {
     border-top: 0px solid #a0a0a0;
     background: #fff;
     margin-bottom: 0px;
+    display: none;
 }
 
 .navbar.navbar-inverse {
