@@ -11,3 +11,4 @@ ace-responsive-menu.js
 ace-responsive-menu-min.js
 *-min.css
 *.min.css
+/secrets
