@@ -1,12 +1,13 @@
-
-Redirect 301 "/in" "https://anonpress.org/store/ap-index"
-Redirect 301 "/camo" "https://anonpress.org/store/camo"
-Redirect 301 "/conc" "https://anonpress.org/store/concordance"
-Redirect 301 "/mi" "https://anonpress.org/store/mini"
-Redirect 301 "/soft" "https://anonpress.org/store/soft"
-Redirect 301 "/study" "https://anonpress.org/store/study"
-Redirect 301 "/wo" "https://anonpress.org/store/wo"
-Redirect 301 "/xl" "https://anonpress.org/store/xl"
-Redirect 301 "/view_cart.asp" "https://anonpress.org/store/index.php?route=checkout/cart"
-Redirect 301 "/myaccount.asp" "https://anonpress.org/store/index.php?route=account/login"
-Redirect 301 "/" "https://anonpress.org/store"
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(?:www\.)anonpress\.net$ [NC]
+RewriteRule ^/in/?$ "https://anonpress.org/store/ap-index" [R=301,L]
+RewriteRule ^/camo/?$ "https://anonpress.org/store/camo" [R=301,L]
+RewriteRule ^/conc/?$ "https://anonpress.org/store/concordance" [R=301,L]
+RewriteRule ^/mi/?$ "https://anonpress.org/store/mini" [R=301,L]
+RewriteRule ^/soft/?$ "https://anonpress.org/store/soft" [R=301,L]
+RewriteRule ^/study/?$ "https://anonpress.org/store/study" [R=301,L]
+RewriteRule ^/wo/?$ "https://anonpress.org/store/wo" [R=301,L]
+RewriteRule ^/xl/?$ "https://anonpress.org/store/xl" [R=301,L]
+RewriteRule ^/view_cart.asp$ "https://anonpress.org/store/index.php?route=checkout/cart" [R=301,L]
+RewriteRule ^/myaccount.asp$ "https://anonpress.org/store/index.php?route=account/login" [R=301,L]
+RewriteRule ^/?$ "https://anonpress.org/store" [R=301,L]
