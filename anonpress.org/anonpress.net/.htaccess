@@ -1,5 +1,4 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(?:www\.)anonpress\.net$ [NC]
 RewriteRule ^/in/?$ "https://anonpress.org/store/ap-index" [NC,R=301,L]
 RewriteRule ^/camo/?$ "https://anonpress.org/store/camo" [NC,R=301,L]
 RewriteRule ^/conc/?$ "https://anonpress.org/store/concordance" [NC,R=301,L]
