@@ -16,14 +16,14 @@
 		<li><a>Online Store</a>
 			<ul>
 				<li><a href="https://anonpress.org/store">Store Home</a>
-				<li><a href="https://anonpress.net/mi">Mini Edition</a>
-				<li><a href="https://anonpress.net/camo">Mini Edition – Camo</a>
-				<li><a href="https://anonpress.net/soft">First Edition – Softcover</a>
-				<li><a href="https://anonpress.net/study">Study Edition – Hardcover</a>
-				<li><a href="https://anonpress.net/wo">Study Edition – Softcover</a>
-				<li><a href="https://anonpress.net/in">AP Index</a>
-				<li><a href="https://anonpress.net/xl">Extra Large Print</a>
-				<li><a href="https://anonpress.net/conc">Concordance</a>
+				<li><a href="https://anonpress.org/store/mini">Mini Edition</a>
+				<li><a href="https://anonpress.org/store/camo">Mini Edition – Camo</a>
+				<li><a href="https://anonpress.org/store/soft">First Edition – Softcover</a>
+				<li><a href="https://anonpress.org/store/study">Study Edition – Hardcover</a>
+				<li><a href="https://anonpress.org/store/wo">Study Edition – Softcover</a>
+				<li><a href="https://anonpress.org/store/ap-index">AP Index</a>
+				<li><a href="https://anonpress.org/store/xl">Extra Large Print</a>
+				<li><a href="https://anonpress.org/store/concordance">Concordance</a>
 				<li><a href="https://anonpress.org/brochure_request/">Brochure Request</a>
 			</ul>
 		<li><a>Online Books</a>
