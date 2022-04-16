@@ -15,7 +15,7 @@
 		<li><a href="//anonpress.org"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
 		<li><a>Online Store</a>
 			<ul>
-				<li><a href="https://anonpress.net">Store Home</a>
+				<li><a href="https://anonpress.org/store">Store Home</a>
 				<li><a href="https://anonpress.net/mi">Mini Edition</a>
 				<li><a href="https://anonpress.net/camo">Mini Edition – Camo</a>
 				<li><a href="https://anonpress.net/soft">First Edition – Softcover</a>
@@ -63,8 +63,8 @@
 				<li><a href="https://anonpress.org/choices">for everything else</a>
 			</ul>
 		<li class="mobileonly"><a data-email>Contact Us</a>
-		<li class="storeonly"><a href="//anonpress.net/myaccount.asp"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
-		<li><a href="https://anonpress.net/view_cart.asp"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
+		<li class="storeonly"><a href="https://anonpress.org/store/index.php?route=account/login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+		<li><a href="https://anonpress.org/store/index.php?route=checkout/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
 	</ul>
 </nav>
 <script>
