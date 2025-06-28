@@ -20,9 +20,7 @@ require_once 'includes/nav.php';
 <header>
 	<div class="flex" style="justify-content: space-between; align-items: center;">
 		<h1><img src="/assets/The-Anonymous-Press-green.gif" alt="The Anonymous Press" width="394" height="79"></h1>
-		<form data-email>
-			<button>Contact Us</button>
-		</form>
+        <a class="button" data-email>Contact Us</a>
 	</div>
 </header>
 <section id="randquote">

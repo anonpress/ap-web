@@ -2,25 +2,21 @@ h1 {
 	margin-left: 5%;
 	max-width: 90%;
 }
-header form {
-	margin-right: 5%;
-}
-button {
+header a.button {
 	padding: 0.5em 1em;
 	font: inherit;
 	border-radius: 9px;
 	border: 1px solid #ccc;
 	color: #333;
 	background: linear-gradient(to bottom, #fff 0%,#f2f2f2 50%);
-}
-header button {
 	font-size: 18pt;
+	margin-right: 5%;
 }
-button:hover {
+header a.button:hover {
 	cursor: pointer;
 	color: #33f;
 }
-button:active {
+header a.button:active {
 	background: linear-gradient(to top, #fff 0%,#f2f2f2 50%);
 }
 body>section {
