@@ -25,7 +25,7 @@
 				<li><a href="https://anonpress.org/store/xl">Extra Large Print</a>
 				<li><a href="https://anonpress.org/store/concordance">Concordance</a>
 				<li><a href="https://anonpress.org/brochure_request/">Brochure Request</a>
-				<li><a href="https://anonpress.org/store/barmi/">Bargain Bin</a>
+				<li><a href="https://anonpress.org/store/barmi">Bargain Bin</a>
 			</ul>
 		<li><a>Online Books</a>
 			<ul>
