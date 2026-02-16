@@ -8,10 +8,11 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@master
       - name: SFTP upload anonpress.org
-        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        uses: Dylan700/sftp-upload-action@latest
         with:
-          ftp-server: sftp://ftp.anonpress.org/home/anonpress/anonpress.org/
-          ftp-username: anonpress
-          ftp-password: ${{ secrets.WEB_SFTP_PASSWORD }}
-          local-dir: anonpress.org/
-          git-ftp-args: --insecure
+          server: ftp.anonpress.org
+          username: anonpress
+          password: ${{secrets.WEB_SFTP_PASSWORD}}
+          port: 22
+          uploads: |
+            ./anonpress.org/ => /home/anonpress/anonpress.org/
